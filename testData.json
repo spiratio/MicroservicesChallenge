@@ -1,0 +1,71 @@
+[
+  {
+    "user_id": "user123",
+    "restaurant_id": "restaurant456",
+    "date": "2023-08-25",
+    "time": "19:30",
+    "party_size": 4,
+    "preferences": "Window seat, vegetarian menu",
+    "guest_type": "VIP Guest",
+    "special_requests": "No nuts, vegetarian options",
+    "children": {
+      "count": 2,
+      "ages": [5, 8]
+    },
+    "additional_services": ["Children's play area", "Wheelchair access"],
+    "confirmation_method": "Email",
+    "payment_method": "Pay on arrival",
+    "contact_info": {
+      "phone": "123-456-7890",
+      "email": "user@example.com"
+    },
+    "recommendation_request": "Could you suggest a good wine pairing?"
+  },
+
+  {
+    "user_id": "user456",
+    "restaurant_id": "restaurant789",
+    "date": "2023-09-10",
+    "time": "20:00",
+    "party_size": 2,
+    "preferences": "Quiet corner, non-smoking",
+    "guest_type": "Regular Guest",
+    "loyalty_program": false,
+    "special_requests": "No spicy food",
+    "children": {
+      "count": 1,
+      "ages": [7]
+    },
+    "additional_services": ["High chair"],
+    "confirmation_method": "SMS",
+    "payment_method": "Pay on arrival",
+    "contact_info": {
+      "phone": "987-654-3210",
+      "email": "anotheruser@example.com"
+    },
+    "recommendation_request": "What wine would pair well with seafood?"
+  },
+  {
+    "user_id": "user789",
+    "restaurant_id": "restaurant123",
+    "date": "2023-09-15",
+    "time": "18:30",
+    "party_size": 3,
+    "preferences": "Outdoor seating, vegan menu",
+    "guest_type": "Loyalty Program Member",
+    "loyalty_program": true,
+    "special_requests": "Gluten-free options",
+    "children": {
+      "count": 0,
+      "ages": []
+    },
+    "additional_services": ["WiFi"],
+    "confirmation_method": "Email",
+    "payment_method": "Prepaid",
+    "contact_info": {
+      "phone": "555-123-4567",
+      "email": "loyaluser@example.com"
+    },
+    "recommendation_request": "Do you have any seasonal dishes?"
+  }
+]
