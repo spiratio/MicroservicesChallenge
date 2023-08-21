@@ -1,0 +1,6 @@
+[submodule "submodules/Microservice1"]
+	path = submodules/Microservice1
+	url = https://github.com/spiratio/Microservice1.git
+[submodule "submodules/Microservice2"]
+	path = submodules/Microservice2
+	url = https://github.com/spiratio/Microservice2.git
